@@ -52,7 +52,7 @@ unset file
 PATH=$PATH:/Users/becca.kostyo/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 export PATH
 
-pry () {
+function pry () {
     if [ -e Gemfile.lock ] && [ -e ./config/environment.rb ] && grep -q pry Gemfile.lock
     then
         bundle exec pry -r ./config/environment "$@"

@@ -25,8 +25,8 @@
 	reb = "!r() { git rebase -i HEAD~$1; }; r"
 
 [user]
-	name = Becca Harris
-	email = bharris@providigm.com
+	name = Becca Kostyo
+	email = bkostyo@gmail.com
 
 [credential]
 	helper = osxkeychain
