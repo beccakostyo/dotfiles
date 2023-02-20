@@ -1,8 +1,7 @@
 # 
-alias aba='cd ~/Dev/abaqis2'
-alias a3='cd ~/Dev/abaqisFE'
-alias moh='cd ~/Dev/MoH'
-alias emp='cd ~/Dev/EmpSat'
+alias adk='cd ~/Dev/abaqis-docker'
+alias abe='cd ~/Dev/abaqis-docker/abaqis-be'
+alias afe='cd ~/Dev/abaqis-docker/abaqis-fe'
 alias abdb='rake db:drop; rake db:create'
 alias abm='rake db:migrate; rake db:seed' 
 alias abdbtest='rake db:drop RAILS_ENV=test; rake db:create RAILS_ENV=test; rake db:migrate RAILS_ENV=test'
@@ -23,8 +22,6 @@ alias dt="cd ~/Desktop"
 alias g="git"
 alias h="history"
 alias j="jobs"
-alias start_mysql='sudo /usr/local/opt/mariadb/bin/mysqld_safe &'¬
-alias stop_mysql='/usr/local/opt/mariadb10/bin/mysqladmin shutdown'¬
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`

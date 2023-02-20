@@ -49,7 +49,7 @@ done
 unset file
 
 # Customize to your needs...
-PATH=$PATH:/Users/beccaharris/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+PATH=$PATH:/Users/becca.kostyo/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 export PATH
 
 pry () {
